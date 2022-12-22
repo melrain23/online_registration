@@ -1,4 +1,4 @@
-<!-- <?php 
+<?php 
     require 'vendor/autoload.php';
 
     // class sendEmail{
@@ -11,9 +11,9 @@
     //         $email->setSubject($subject);
     //         $email->addTo($to);
     //         $email->addContent("text/plain",$content);
-    //         //$email->addContent("text/html",$content);
+    //         $email->addContent("text/html",$content);
 
-    //         //$sendgrid = new SendGrid($key);
+    //         $sendgrid = new SendGrid($key);
 
     //         try{
     //             $response = $sendgrid->send($email);
@@ -25,4 +25,4 @@
     //     }
     // }
 
-?> -->
+?>

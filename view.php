@@ -7,7 +7,7 @@
 
      
      if(!isset($_GET['id'])){
-        //include 'includes/errormessage.php';
+        
         echo "<h1 class='text-danger'>Please check details and try again</h1>";
         
      } else{

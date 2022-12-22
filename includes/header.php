@@ -27,6 +27,9 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav mr-auto">
         <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="programmes.php">Programmes <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="apply.php">Apply</a>
+        <a class="nav-item nav-link active" href="about.php">About</a>
         <a class="nav-link" href="viewrecords.php">View Registrants</a>
       </div>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">

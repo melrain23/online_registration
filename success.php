@@ -2,7 +2,7 @@
     $title = 'Success';
     require_once 'includes/header.php';
     require_once 'db/conn.php';
-    //require_once 'sendemail.php';
+    require_once 'sendemail.php';
     
 
     if(isset($_POST['submit'])){
@@ -38,12 +38,11 @@
         // else{
         //     include 'includes/errormessage.php';
         // }
-
     }
 ?>
 
-    <h1 class="text-center text-success">You Have Been Registered for <?php echo $programmeName['programme_name'];?>! </h1>
-
+    <h1 class="text-center text-success">You Have Been Registered for <?php echo $programmeName['programme_name'];?>!</h1>
+    <h1 class="text-center text-primary">See You Soon!</h1>
 
 
     <img src="<?php echo $destination;?>" class="rounded-circle" style="width: 18rem; height: 18rem"/>

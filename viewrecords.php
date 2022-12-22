@@ -8,7 +8,6 @@
     $results = $crud->getRegistrant();
 ?>
 
-
     <table class="table">
         <tr>
             <th>#</th>
